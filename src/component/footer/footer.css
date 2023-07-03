@@ -1,12 +1,12 @@
 .footer-bg{
-    background-image: url("asset/h12.jpg");
+    background-image: url("/asset/h12.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
     width: 100vw;
 }
 .footer-bg2{
-    background-image: url("asset/h15.jpg");
+    background-image: url("/asset/h15.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
