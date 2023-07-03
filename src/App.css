@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.nav-bg{
+  background-color: white;
+}
+.color-one{
+  color: black;
+  list-style: none;
+ 
+}
+.nav-bg{
+  display: flex;
+}
+.mixer{
+  display: flex;
+}
+.mixer .listing{
+  list-style: none;
+  margin: 0 1rem;
+  font-weight: 500;
+   font-style: italic;
+   color:rgb(63, 78, 129);
+   text-decoration: underline;
+}
+.wraps{
+  width: 3rem; 
+  height: 3rem;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: lightgrey;
+  display: flex;
+  gap: 1rem;
+}
+.second-logo{
+  display: block;
+}
+.seclogo{
+  opacity: 1;
+}
+@media screen  and (max-width: 767px){
+  .body{
+    overflow-x: hidden;
+  } 
+  .mixer{
+      display: block;
+      opacity: 0;
+  }
+
+}

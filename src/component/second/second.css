@@ -1,0 +1,52 @@
+.second-complete{
+   background-color: white;
+    height: 30vh;
+    width: 100vw;
+    margin: 10rem 0 0 0;
+}
+.one-contents{
+    top: 0;
+    margin: 0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 5rem;
+}
+.one-contents .number-contents{
+    position: relative;
+}
+.number-contents .thefirsts{
+    font-size: 7.5rem;
+    font-family:  League Gothic;
+    font-weight: 1000;
+    color: rgb(98, 108, 129);
+}
+.number-contents .historys{
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-family:  League Gothic;
+   position: absolute;
+    top: 5rem;
+    left: 5.5rem;
+    color: rgb(84, 98, 129);
+}
+.one-contents .second-lorep{
+    color: rgb(98, 108, 129);
+    font-size: .85rem;
+    
+}
+@media screen  and (max-width: 767px){
+    .one-contents{
+        top: 0;
+        margin: 0 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        gap: 5rem;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1034px){
+   
+}
